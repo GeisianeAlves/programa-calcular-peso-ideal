@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Clínica Ame</title>
+</head>
+<body>
+    
+    <header>
+        
+        <h1 id="title">Clínica Ame</h1>
+        
+   
+        <nav>
+        <ul>
+        <a class="menu-item" href="">Início</a>
+        <a class="menu-item" href="">Sobre</a>
+        <a class="menu-item" href="">Contato</a>
+        <a class="menu-item" href="">Depoimentos</a>
+        <a class="criar-conta-btn" href="">Agendar horário</a>
+    </ul>
+</nav>
+
+</header>
+
+<main>
+    <div class="container">
+        <div class="caixa-principal">
+            <h2 class="subtitulo">Calcule o peso ideal</h2>
+            <p class="fonte-inputs">Nome:
+                <input class="input1" type="text" placeholder="Digite seu nome" id="inNome">
+            </p>
+            <p class="fonte-inputs">Sexo:
+                <input class="input2" type="radio" name="sexo" id="rbMasculino">Masculino
+                <input class="input2" type="radio" name="sexo" id="rbFeminino">Feminino
+            </p>
+            <p class="fonte-inputs">Altura:
+                <input class="input1" type="text" placeholder="Digite sua altura" id="inAltura">
+            </p>
+            <div class="botoes">
+            
+                <input class="botao-calcular" type="button" value="Calcular peso ideal" id="btCalcular">
+                <input class="limpar" type="button" value="Limpar campos" id="btLimpar">
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+<article>
+    <div class="resposta">
+    <h3 id="outResposta"></h3>
+    </div>
+</article>
+    <script src="js/cap3_3.1.js"></script>
+</body>
+</html>

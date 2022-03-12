@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    text-decoration: none;
+}
+body{
+    
+    background: url(../img/flowers-ko.png);
+    font-family: verdana;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+nav {
+    margin-right: 60px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34,34,34);
+    padding-left: 60px;
+    
+}
+
+h1 {
+    color: #e0b0ff;
+}
+
+h3 {
+    color: black;
+}
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.subtitulo {
+  
+    font-size: 24px;
+}
+.caixa-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    background-color: pink;
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 450px;
+    box-shadow: 5px 3px 3px #c71585;
+    
+}
+
+a{
+    color:white;
+}
+a:hover{
+   color: #ffcbdb;
+   transition: 0.3s all;
+}
+.menu-item {
+ margin-right: 25px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+.botao-calcular {
+    height: 50px;
+    width: 50%;
+    
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #d968d6;
+    background-color: #e6c8f5;
+    font-size: 15px;
+}
+.botao-calcular:hover {
+    background-color: #d968d6;
+}
+
+.limpar {
+    height: 50px;
+    width: 50%;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #d968d6;
+    background-color: #e6c8f5;
+    font-size: 15px;
+}
+
+.limpar:hover {
+    background-color: #d968d6;;
+}
+
+.criar-conta-btn{
+    border: 2px solid #c71585;
+    padding: 10px;
+    border-radius: 10px;
+}
+.criar-conta-btn:hover{
+    background-color: #c71585;
+    color:white;
+}
+
+h1{
+    font-weight: 200;
+    font-family: 'Fredoka One', cursive;
+    cursor:pointer ;
+}
+
+
+    
+.fonte-inputs{
+    line-height: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-size: 15px;
+   
+}
+.input1{
+    margin-top: 20px;
+    height: 20px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+.input2 {
+    margin-top: 20px;
+    height: 20px;
+    width: 50px;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+
+}
+
+
+.resposta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00806a;
+    background-color: #dae9e5;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-right: 500px; 
+    margin-top: 30px;  
+}
+
